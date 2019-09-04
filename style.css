@@ -1,0 +1,44 @@
+body {
+    margin: 0px；
+}
+
+html {
+    margin: 0px;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    line-height: 60px;
+}
+
+.row {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+}
