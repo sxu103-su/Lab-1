@@ -28,12 +28,22 @@ a {
 .main {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(250, 245, 245);
 }
 
 .content {
     width: 70%;
-    text-align: center;
     padding: 20px;
+}
+
+.blog-post {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .sidebar {
@@ -41,4 +51,9 @@ a {
     background-color: dimgray;
     color: white;
     padding: 20px;
+}
+
+img {
+    float: left;
+    padding: 10px;
 }
